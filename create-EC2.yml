@@ -1,8 +1,9 @@
 ---
  - name:  provisioning a new EC2 using Ansible playbook
    hosts: localhost
+   become: yes 
    #connection: local
-   gather_facts: False
+   gather_facts: yes
    tags: provisioning
 
    vars:
