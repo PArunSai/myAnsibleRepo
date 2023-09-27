@@ -6,7 +6,7 @@
    tags: provisioning
 
    vars:
-     ansible_python_interpreter: /usr/bin/python3.10
+     ansible_python_interpreter: /usr/local/lib/python3.10
      keypair: shell-script
      instance_type: t2.micro
      image: ami-053b0d53c279acc90
