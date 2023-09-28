@@ -1,6 +1,7 @@
 ---
  - name:  provisioning a new EC2 using Ansible playbook
    hosts: localhost
+   become_user: root
    become: yes 
    #connection: local
    gather_facts: False
